@@ -2,8 +2,8 @@ package infisicalclient
 
 import (
 	"fmt"
+	"github.com/humoflife/terraform-provider-infisical/internal/errors"
 	"net/http"
-	"terraform-provider-infisical/internal/errors"
 )
 
 type DynamicSecretProvider string

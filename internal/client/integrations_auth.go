@@ -2,7 +2,7 @@ package infisicalclient
 
 import (
 	"fmt"
-	"terraform-provider-infisical/internal/errors"
+	"github.com/humoflife/terraform-provider-infisical/internal/errors"
 )
 
 // Enum containing the possible values for the `type` field in the CreateIntegrationAuthRequest.

@@ -8,9 +8,9 @@ import (
 	"regexp"
 	"strings"
 
-	infisical "terraform-provider-infisical/internal/client"
-	customtypes "terraform-provider-infisical/internal/pkg/customtypes"
-	infisicalstrings "terraform-provider-infisical/internal/pkg/strings"
+	infisical "github.com/humoflife/terraform-provider-infisical/internal/client"
+	customtypes "github.com/humoflife/terraform-provider-infisical/internal/pkg/customtypes"
+	infisicalstrings "github.com/humoflife/terraform-provider-infisical/internal/pkg/strings"
 
 	"github.com/hashicorp/terraform-plugin-framework-validators/listvalidator"
 	"github.com/hashicorp/terraform-plugin-framework-validators/stringvalidator"

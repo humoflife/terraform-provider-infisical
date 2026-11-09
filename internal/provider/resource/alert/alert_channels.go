@@ -9,8 +9,8 @@ import (
 	"slices"
 	"strings"
 
-	infisical "terraform-provider-infisical/internal/client"
-	infisicaltf "terraform-provider-infisical/internal/pkg/terraform"
+	infisical "github.com/humoflife/terraform-provider-infisical/internal/client"
+	infisicaltf "github.com/humoflife/terraform-provider-infisical/internal/pkg/terraform"
 
 	"github.com/hashicorp/terraform-plugin-framework-validators/mapvalidator"
 	"github.com/hashicorp/terraform-plugin-framework-validators/setvalidator"

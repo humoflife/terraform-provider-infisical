@@ -3,8 +3,8 @@ package infisicalclient
 import (
 	"context"
 	"fmt"
+	"github.com/humoflife/terraform-provider-infisical/internal/errors"
 	"os"
-	"terraform-provider-infisical/internal/errors"
 
 	infisicalSdk "github.com/infisical/go-sdk"
 )

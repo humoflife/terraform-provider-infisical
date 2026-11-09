@@ -4,10 +4,10 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	infisical "github.com/humoflife/terraform-provider-infisical/internal/client"
+	pkg "github.com/humoflife/terraform-provider-infisical/internal/pkg/modifiers"
+	infisicaltf "github.com/humoflife/terraform-provider-infisical/internal/pkg/terraform"
 	"strings"
-	infisical "terraform-provider-infisical/internal/client"
-	pkg "terraform-provider-infisical/internal/pkg/modifiers"
-	infisicaltf "terraform-provider-infisical/internal/pkg/terraform"
 
 	"time"
 

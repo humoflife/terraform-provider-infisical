@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"slices"
 
-	infisical "terraform-provider-infisical/internal/client"
-	pkg "terraform-provider-infisical/internal/pkg/strings"
+	infisical "github.com/humoflife/terraform-provider-infisical/internal/client"
+	pkg "github.com/humoflife/terraform-provider-infisical/internal/pkg/strings"
 
 	"github.com/hashicorp/terraform-plugin-framework-validators/listvalidator"
 	"github.com/hashicorp/terraform-plugin-framework-validators/stringvalidator"

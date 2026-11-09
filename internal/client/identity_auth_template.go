@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"terraform-provider-infisical/internal/errors"
+	"github.com/humoflife/terraform-provider-infisical/internal/errors"
 )
 
 const (

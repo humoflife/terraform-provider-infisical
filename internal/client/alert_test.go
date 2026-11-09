@@ -3,11 +3,11 @@ package infisicalclient
 import (
 	"encoding/json"
 	"errors"
+	infisicalstrings "github.com/humoflife/terraform-provider-infisical/internal/pkg/strings"
 	"net/http"
 	"net/http/httptest"
 	"net/url"
 	"strings"
-	infisicalstrings "terraform-provider-infisical/internal/pkg/strings"
 	"testing"
 
 	"github.com/go-resty/resty/v2"

@@ -2,9 +2,9 @@ package infisicalclient
 
 import (
 	"fmt"
+	"github.com/humoflife/terraform-provider-infisical/internal/errors"
 	"net/http"
 	"net/url"
-	"terraform-provider-infisical/internal/errors"
 )
 
 const (

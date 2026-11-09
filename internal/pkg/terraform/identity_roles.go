@@ -2,8 +2,8 @@ package terraform
 
 import (
 	"fmt"
+	infisical "github.com/humoflife/terraform-provider-infisical/internal/client"
 	"sort"
-	infisical "terraform-provider-infisical/internal/client"
 	"time"
 
 	"github.com/hashicorp/terraform-plugin-framework/types"

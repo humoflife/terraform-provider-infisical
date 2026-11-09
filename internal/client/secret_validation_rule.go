@@ -2,9 +2,9 @@ package infisicalclient
 
 import (
 	"fmt"
+	"github.com/humoflife/terraform-provider-infisical/internal/errors"
 	"maps"
 	"net/http"
-	"terraform-provider-infisical/internal/errors"
 )
 
 type SecretValidationRuleType string

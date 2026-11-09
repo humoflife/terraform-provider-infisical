@@ -3,9 +3,9 @@ package resource
 import (
 	"context"
 	"fmt"
+	infisical "github.com/humoflife/terraform-provider-infisical/internal/client"
+	customtypes "github.com/humoflife/terraform-provider-infisical/internal/pkg/customtypes"
 	"strings"
-	infisical "terraform-provider-infisical/internal/client"
-	customtypes "terraform-provider-infisical/internal/pkg/customtypes"
 
 	"github.com/google/uuid"
 	"github.com/hashicorp/terraform-plugin-framework-validators/int64validator"

@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	infisical "terraform-provider-infisical/internal/client"
+	infisical "github.com/humoflife/terraform-provider-infisical/internal/client"
 
 	"github.com/go-resty/resty/v2"
 )

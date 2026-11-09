@@ -6,7 +6,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	infisical "terraform-provider-infisical/internal/client"
+	infisical "github.com/humoflife/terraform-provider-infisical/internal/client"
 
 	"github.com/go-resty/resty/v2"
 	"github.com/hashicorp/terraform-plugin-framework/datasource"

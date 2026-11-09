@@ -3,9 +3,9 @@ package resource
 import (
 	"context"
 	"fmt"
+	infisical "github.com/humoflife/terraform-provider-infisical/internal/client"
 	"sort"
 	"strings"
-	infisical "terraform-provider-infisical/internal/client"
 	"time"
 
 	"github.com/hashicorp/go-uuid"

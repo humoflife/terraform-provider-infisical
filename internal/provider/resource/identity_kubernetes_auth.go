@@ -3,12 +3,12 @@ package resource
 import (
 	"context"
 	"fmt"
+	infisical "github.com/humoflife/terraform-provider-infisical/internal/client"
+	customtypes "github.com/humoflife/terraform-provider-infisical/internal/pkg/customtypes"
+	infisicalstrings "github.com/humoflife/terraform-provider-infisical/internal/pkg/strings"
+	infisicaltf "github.com/humoflife/terraform-provider-infisical/internal/pkg/terraform"
 	"strconv"
 	"strings"
-	infisical "terraform-provider-infisical/internal/client"
-	customtypes "terraform-provider-infisical/internal/pkg/customtypes"
-	infisicalstrings "terraform-provider-infisical/internal/pkg/strings"
-	infisicaltf "terraform-provider-infisical/internal/pkg/terraform"
 
 	"github.com/hashicorp/terraform-plugin-framework-validators/stringvalidator"
 	"github.com/hashicorp/terraform-plugin-framework/attr"

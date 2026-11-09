@@ -4,8 +4,8 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	infisical "terraform-provider-infisical/internal/client"
-	pkg "terraform-provider-infisical/internal/pkg/modifiers"
+	infisical "github.com/humoflife/terraform-provider-infisical/internal/client"
+	pkg "github.com/humoflife/terraform-provider-infisical/internal/pkg/modifiers"
 
 	"github.com/hashicorp/terraform-plugin-framework/resource"
 	"github.com/hashicorp/terraform-plugin-framework/resource/schema"

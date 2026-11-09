@@ -8,7 +8,7 @@ import (
 
 	"github.com/hashicorp/go-uuid"
 
-	infisical "terraform-provider-infisical/internal/client"
+	infisical "github.com/humoflife/terraform-provider-infisical/internal/client"
 
 	"github.com/hashicorp/terraform-plugin-framework-validators/resourcevalidator"
 	"github.com/hashicorp/terraform-plugin-framework-validators/stringvalidator"

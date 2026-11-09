@@ -4,14 +4,14 @@ import (
 	"context"
 	"errors"
 	"fmt"
+	infisicaltf "github.com/humoflife/terraform-provider-infisical/internal/pkg/terraform"
+	"github.com/humoflife/terraform-provider-infisical/internal/pkg/validators"
 	"slices"
-	infisicaltf "terraform-provider-infisical/internal/pkg/terraform"
-	"terraform-provider-infisical/internal/pkg/validators"
 	"time"
 
 	"github.com/hashicorp/go-uuid"
 
-	infisical "terraform-provider-infisical/internal/client"
+	infisical "github.com/humoflife/terraform-provider-infisical/internal/client"
 
 	"github.com/hashicorp/terraform-plugin-framework-validators/int64validator"
 	"github.com/hashicorp/terraform-plugin-framework-validators/listvalidator"

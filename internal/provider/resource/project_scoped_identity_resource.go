@@ -3,10 +3,10 @@ package resource
 import (
 	"context"
 	"fmt"
+	infisical "github.com/humoflife/terraform-provider-infisical/internal/client"
+	tfpkg "github.com/humoflife/terraform-provider-infisical/internal/pkg/terraform"
 	"sort"
 	"strings"
-	infisical "terraform-provider-infisical/internal/client"
-	tfpkg "terraform-provider-infisical/internal/pkg/terraform"
 
 	"github.com/hashicorp/terraform-plugin-framework/attr"
 	"github.com/hashicorp/terraform-plugin-framework/resource"

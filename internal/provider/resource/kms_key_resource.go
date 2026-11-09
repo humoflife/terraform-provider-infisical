@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	infisical "terraform-provider-infisical/internal/client"
+	infisical "github.com/humoflife/terraform-provider-infisical/internal/client"
 
 	"github.com/hashicorp/terraform-plugin-framework-validators/stringvalidator"
 	"github.com/hashicorp/terraform-plugin-framework/path"

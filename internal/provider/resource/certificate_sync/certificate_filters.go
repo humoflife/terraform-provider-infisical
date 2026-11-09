@@ -2,8 +2,8 @@ package resource
 
 import (
 	"context"
+	infisical "github.com/humoflife/terraform-provider-infisical/internal/client"
 	"regexp"
-	infisical "terraform-provider-infisical/internal/client"
 
 	"github.com/hashicorp/terraform-plugin-framework-validators/stringvalidator"
 	"github.com/hashicorp/terraform-plugin-framework/attr"

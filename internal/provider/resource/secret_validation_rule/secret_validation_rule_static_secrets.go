@@ -4,8 +4,8 @@ import (
 	"context"
 	"maps"
 
-	infisical "terraform-provider-infisical/internal/client"
-	"terraform-provider-infisical/internal/pkg/validators"
+	infisical "github.com/humoflife/terraform-provider-infisical/internal/client"
+	"github.com/humoflife/terraform-provider-infisical/internal/pkg/validators"
 
 	"github.com/hashicorp/terraform-plugin-framework-validators/int64validator"
 	"github.com/hashicorp/terraform-plugin-framework-validators/objectvalidator"

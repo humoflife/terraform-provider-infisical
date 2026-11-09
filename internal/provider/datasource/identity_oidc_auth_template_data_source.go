@@ -5,9 +5,9 @@ import (
 	"errors"
 	"fmt"
 
-	infisical "terraform-provider-infisical/internal/client"
-	infisicalstrings "terraform-provider-infisical/internal/pkg/strings"
-	infisicaltf "terraform-provider-infisical/internal/pkg/terraform"
+	infisical "github.com/humoflife/terraform-provider-infisical/internal/client"
+	infisicalstrings "github.com/humoflife/terraform-provider-infisical/internal/pkg/strings"
+	infisicaltf "github.com/humoflife/terraform-provider-infisical/internal/pkg/terraform"
 
 	"github.com/hashicorp/terraform-plugin-framework-validators/datasourcevalidator"
 	"github.com/hashicorp/terraform-plugin-framework/datasource"

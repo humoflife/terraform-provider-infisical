@@ -1,7 +1,7 @@
 package resource
 
 import (
-	infisical "terraform-provider-infisical/internal/client"
+	infisical "github.com/humoflife/terraform-provider-infisical/internal/client"
 )
 
 func firstRole(apiRoles []infisical.CertManagerMembershipRole, fallback string) string {

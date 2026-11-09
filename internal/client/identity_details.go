@@ -1,7 +1,7 @@
 package infisicalclient
 
 import (
-	"terraform-provider-infisical/internal/errors"
+	"github.com/humoflife/terraform-provider-infisical/internal/errors"
 )
 
 const (

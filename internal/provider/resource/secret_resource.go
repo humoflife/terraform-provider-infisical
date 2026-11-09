@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 	"fmt"
+	infisical "github.com/humoflife/terraform-provider-infisical/internal/client"
+	pkg "github.com/humoflife/terraform-provider-infisical/internal/pkg/strings"
 	"strings"
-	infisical "terraform-provider-infisical/internal/client"
-	pkg "terraform-provider-infisical/internal/pkg/strings"
 	"time"
 
 	"github.com/hashicorp/go-uuid"

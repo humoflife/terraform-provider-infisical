@@ -4,9 +4,9 @@ import (
 	"encoding/base64"
 	"encoding/json"
 	"fmt"
+	"github.com/humoflife/terraform-provider-infisical/internal/errors"
 	"net/http"
 	"strings"
-	"terraform-provider-infisical/internal/errors"
 )
 
 // These endpoints act on whatever org the session is scoped to, so linking into a sub-org needs

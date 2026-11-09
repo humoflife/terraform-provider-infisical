@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 	"fmt"
+	infisical "github.com/humoflife/terraform-provider-infisical/internal/client"
 	"math/rand/v2"
 	"strings"
-	infisical "terraform-provider-infisical/internal/client"
 	"time"
 
 	"github.com/hashicorp/terraform-plugin-framework-validators/stringvalidator"

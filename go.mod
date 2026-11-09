@@ -1,4 +1,4 @@
-module terraform-provider-infisical
+module github.com/humoflife/terraform-provider-infisical
 
 go 1.26.10
 

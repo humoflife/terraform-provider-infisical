@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	customtypes "terraform-provider-infisical/internal/pkg/customtypes"
+	customtypes "github.com/humoflife/terraform-provider-infisical/internal/pkg/customtypes"
 
 	"github.com/hashicorp/terraform-plugin-framework/attr"
 	"github.com/hashicorp/terraform-plugin-framework/diag"

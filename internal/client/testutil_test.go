@@ -9,7 +9,7 @@ import (
 
 	"github.com/go-resty/resty/v2"
 
-	infisicalerrors "terraform-provider-infisical/internal/errors"
+	infisicalerrors "github.com/humoflife/terraform-provider-infisical/internal/errors"
 )
 
 // Helpers shared by the client's tests. They live here rather than in whichever test file first

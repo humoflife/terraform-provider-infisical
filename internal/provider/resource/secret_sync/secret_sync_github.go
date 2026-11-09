@@ -3,8 +3,8 @@ package resource
 import (
 	"context"
 	"fmt"
-	infisical "terraform-provider-infisical/internal/client"
-	"terraform-provider-infisical/internal/pkg/terraform"
+	infisical "github.com/humoflife/terraform-provider-infisical/internal/client"
+	"github.com/humoflife/terraform-provider-infisical/internal/pkg/terraform"
 
 	"github.com/hashicorp/terraform-plugin-framework/attr"
 	"github.com/hashicorp/terraform-plugin-framework/diag"

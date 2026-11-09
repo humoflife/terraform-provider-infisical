@@ -4,11 +4,11 @@ import (
 	"encoding/base64"
 	"encoding/json"
 	"fmt"
+	"github.com/humoflife/terraform-provider-infisical/internal/crypto"
+	"github.com/humoflife/terraform-provider-infisical/internal/errors"
 	"net/http"
 	"strconv"
 	"strings"
-	"terraform-provider-infisical/internal/crypto"
-	"terraform-provider-infisical/internal/errors"
 )
 
 const (

@@ -3,8 +3,8 @@ package infisicalclient
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/humoflife/terraform-provider-infisical/internal/errors"
 	"net/http"
-	"terraform-provider-infisical/internal/errors"
 
 	"github.com/go-resty/resty/v2"
 )

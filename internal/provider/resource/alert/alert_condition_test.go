@@ -4,9 +4,9 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	infisical "github.com/humoflife/terraform-provider-infisical/internal/client"
 	"os"
 	"strings"
-	infisical "terraform-provider-infisical/internal/client"
 	"testing"
 
 	"github.com/hashicorp/terraform-plugin-framework/attr"

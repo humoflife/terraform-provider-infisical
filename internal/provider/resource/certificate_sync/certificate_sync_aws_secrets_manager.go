@@ -2,9 +2,9 @@ package resource
 
 import (
 	"context"
+	infisical "github.com/humoflife/terraform-provider-infisical/internal/client"
+	customtypes "github.com/humoflife/terraform-provider-infisical/internal/pkg/customtypes"
 	"regexp"
-	infisical "terraform-provider-infisical/internal/client"
-	customtypes "terraform-provider-infisical/internal/pkg/customtypes"
 
 	"github.com/hashicorp/terraform-plugin-framework/attr"
 	"github.com/hashicorp/terraform-plugin-framework/diag"

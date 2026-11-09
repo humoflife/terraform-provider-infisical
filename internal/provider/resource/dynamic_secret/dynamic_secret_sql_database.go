@@ -2,9 +2,9 @@ package resource
 
 import (
 	"context"
-	infisical "terraform-provider-infisical/internal/client"
-	pkg "terraform-provider-infisical/internal/pkg/modifiers"
-	infisicaltf "terraform-provider-infisical/internal/pkg/terraform"
+	infisical "github.com/humoflife/terraform-provider-infisical/internal/client"
+	pkg "github.com/humoflife/terraform-provider-infisical/internal/pkg/modifiers"
+	infisicaltf "github.com/humoflife/terraform-provider-infisical/internal/pkg/terraform"
 
 	"github.com/hashicorp/terraform-plugin-framework-validators/int64validator"
 	"github.com/hashicorp/terraform-plugin-framework-validators/stringvalidator"

@@ -3,8 +3,8 @@ package resource
 import (
 	"context"
 	"fmt"
+	infisical "github.com/humoflife/terraform-provider-infisical/internal/client"
 	"strings"
-	infisical "terraform-provider-infisical/internal/client"
 	"time"
 
 	"github.com/hashicorp/terraform-plugin-framework-validators/int64validator"

@@ -1,8 +1,8 @@
 package infisicalclient
 
 import (
+	"github.com/humoflife/terraform-provider-infisical/internal/errors"
 	"net/http"
-	"terraform-provider-infisical/internal/errors"
 )
 
 type SecretRotationProvider string

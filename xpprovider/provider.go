@@ -10,7 +10,7 @@ package xpprovider
 import (
 	fwprovider "github.com/hashicorp/terraform-plugin-framework/provider"
 
-	"terraform-provider-infisical/internal/provider"
+	"github.com/humoflife/terraform-provider-infisical/internal/provider"
 )
 
 // New returns a new instance of the Infisical Terraform provider.

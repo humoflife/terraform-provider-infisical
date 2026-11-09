@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	infisical "terraform-provider-infisical/internal/client"
+	infisical "github.com/humoflife/terraform-provider-infisical/internal/client"
 	"time"
 
 	"github.com/google/uuid"

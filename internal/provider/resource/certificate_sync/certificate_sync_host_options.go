@@ -2,8 +2,8 @@ package resource
 
 import (
 	"context"
+	customtypes "github.com/humoflife/terraform-provider-infisical/internal/pkg/customtypes"
 	"regexp"
-	customtypes "terraform-provider-infisical/internal/pkg/customtypes"
 
 	"github.com/hashicorp/terraform-plugin-framework-validators/stringvalidator"
 	"github.com/hashicorp/terraform-plugin-framework/attr"
